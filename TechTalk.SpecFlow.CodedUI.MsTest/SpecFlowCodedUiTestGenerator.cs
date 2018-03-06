@@ -1,8 +1,8 @@
 ﻿using System.CodeDom;
 using TechTalk.SpecFlow.Generator.UnitTestProvider;
 using TechTalk.SpecFlow.Utils;
-
-namespace TechTalk.SpecFlow.CodedUI.MsTest
+          
+namespace TechTalk.SpecFlow.Coded.MsTest
 {
     public class SpecFlowCodedUiTestGenerator : MsTestGeneratorProvider
     {
