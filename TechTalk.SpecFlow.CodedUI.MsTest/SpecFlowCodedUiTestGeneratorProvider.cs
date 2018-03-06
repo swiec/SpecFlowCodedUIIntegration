@@ -4,13 +4,13 @@ using TechTalk.SpecFlow.Utils;
           
 namespace TechTalk.SpecFlow.Coded.MsTest
 {
-    public class SpecFlowCodedUiTestGenerator : MsTestGeneratorProvider
+    public class SpecFlowCodedUiTestGeneratorProvider : MsTestGeneratorProvider
     {
-        public SpecFlowCodedUiTestGenerator(CodeDomHelper codeDomHelper) : base(codeDomHelper)
+        public SpecFlowCodedUiTestGeneratorProvider(CodeDomHelper codeDomHelper) : base(codeDomHelper)
         {
         }
 
-        public override void SetTestClass(TechTalk.SpecFlow.Generator.TestClassGenerationContext generationContext, string featureTitle, string featureDescription)
+        public override void SetTestClass(Generator.TestClassGenerationContext generationContext, string featureTitle, string featureDescription)
         {
             base.SetTestClass(generationContext, featureTitle, featureDescription);
 
